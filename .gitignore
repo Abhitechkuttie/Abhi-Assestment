@@ -1,0 +1,40 @@
+# ----- Global -----
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+.env.*.local
+
+# Dependencies & builds
+node_modules/
+dist/
+build/
+out/
+
+# IDE / editor configs
+.vscode/
+.idea/
+
+# ----- Mobile -----
+mobile/android/
+mobile/ios/build/
+mobile/ios/Pods/
+mobile/build/
+mobile/.dart_tool/
+mobile/.packages
+
+# ----- Backend -----
+backend/node_modules/
+backend/logs/
+backend/tmp/
+backend/env/
+backend/venv/
+backend/__pycache__/
+backend/db.sqlite3
+
+# ----- Web -----
+web/node_modules/
+web/dist/
+web/build/
+web/.cache/
